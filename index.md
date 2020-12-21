@@ -1,10 +1,10 @@
-### Contents
+## Contents
   1. Tronix BMS
   2. Osprey Drone
   3. WatSize
   4. ThanOS
 
-### Tronix BMS
+## Tronix BMS
 
 #### Background
 This project was inspired when needing a cost-efficient Battery Management Solution (BMS) for some other projects that are in the works.
@@ -30,9 +30,12 @@ Some additional features include enabling motor-mode, which prevents the system 
 
 #### Demos
 This following video highlights the GUI connected to one variant of the full BMS system (8 packs connected). This battery pack replaced the traditional lead-acid battery that came with the Homelite Lawn Mower with a high-power Li-poly chemistry, making it lighter and lasting longer than the normal pack.
+[Link to the video (google photos)](https://photos.app.goo.gl/hAgS2W5BWyhUqBS59)
 
 
 This following video highlights the GUI connected to another variant of the full BMS system (14 packs connected). This battery pack is a high-power version (3.3kWh) using the same firmware (with different constants).
+[Link to the video (google photos)](https://photos.app.goo.gl/8eBsoDNsRfbQidZK8)
+
 
 The following are some pictures of the setup.
 ![](images/BMSv2.jpg)
@@ -42,7 +45,7 @@ The following are some pictures of the setup.
   - Advanced State-of-Charge and State-of-Health: Currently SOC is using a simple linear scale from the minimum specified voltage to the maximum, user configured in the pack setup. It would be beneficial to upgrade that to a state observer model for more accurate battery health and charge data.
   
   
-### Osprey Drone
+## Osprey Drone
 
 #### Background
 I realized that it would be a cool project to make my own VTOL drone with the ability to swivel it's wings during takeoff and landing. The benefits would be a small takeoff footprint, while taking advantage of the energy efficiency of a fixed-wing aircraft (versus a quadcopter).
@@ -64,15 +67,18 @@ The following pictures are stages in the mechanical development of the drone
 ![](images/Aerobody2.jpg)
 ![](images/Aerobody3.jpg)
 
-The following video is a demonstration of the wing/servo controls routed through the STM32F0 micro
+The following video is a demonstration of the wing/servo controls routed through the STM32F0 micro.
+[Link to the video (google photos) (Music Playing in Background)](https://photos.app.goo.gl/qvK5nL31o3YXyHK7A)
+
 #### Future Work
 Mechanical:
   - Covering film needs to be completely applied without as many wrinkles (may need to slightly re-design fuselage/wings)
   - Create internal mounts for computers/receivers
+  
 Software: 
   - Add a Raspberry Pi camera/compute to enable the drone to do more advanced tasks (such as stream heads-up video back to base controller)
 
-### WatSize
+## WatSize
 
 #### Background
 WatSize is a result of my Fourth-Year-Design-Project with exact details found [here](https://watsize.github.io/). This entry is to mainly highlight the hardware aspect which was my contribution to the team.
@@ -96,6 +102,7 @@ Scanner Kit:
   - Interfaced with SPI based camera system to capture photos on demand
   - Implemented PID control to rotate base at constant velocity to provide a uniform point cloud for easier analysis
   - Interfaced with several layers of the IP stack to allow the device to communicate with an AWS server using MQTT for continuous data offload
+  
 Turntable:
   - Created a large wooden base using 2x8's to house the motor and take the weight of users.
   - Used Lazy-Suzy as turntable base for users to stand on.
@@ -106,13 +113,15 @@ The pictures below showcase the Scanner kit that I prototyped.
 ![](images/top_watsize.jpg)
 
 The video below showcases the full-stack. 
+[Link to the video (audio description)](https://photos.app.goo.gl/SZ85UjLfj719GWZh6)
+
 The phone sends a command to the AWS server, which in turns sends a command to the scanner kit to start the scanning process. Next the scanner kit takes a picture and starts rotating the turntable while streaming the point cloud data back the AWS server. Upon completion it sends a 'scan complete' message so the server may start parsing the data. Next the server transforms the point cloud to a meaningful 'avatar' of the person and takes measurements. These measurements get sent back down to the user's phone.
 
 #### Future Work
   - Powerful MCU: Replace the STM32F1 with a more powerful MCU to enable continuous streaming of camera data over ethernet. The current method only supports taking a picture and immediately sending it due to lack of on-board storage
   - FreeRTOS: Add an ethernet enabled RTOS for better timing guarantees
 
-### ThanOS
+## ThanOS
 This proect involved the creation of a custom Send-Receive-Reply based Real Time Operating System designed for the STM32F4 to interface with a UART console and train set.
 The system was named ThanOS (Thanos from the Avenger movies) since during development bugs were found where GCC inserted assembly instruction muddling callee saved registers that were caused by adding inline assembly. This project is one of my favourites as I got a chance to explore why FreeRTOS (and other RTOS's for that matter) made API and implementation decisions they did.
 
