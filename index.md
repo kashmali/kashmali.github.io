@@ -1,7 +1,3 @@
-## Welcome to Aakash Mali's projects!
-
-I work on these projects in my spare time to learn new things!
-
 ### Contents
   1. Tronix BMS
   2. Osprey Drone
