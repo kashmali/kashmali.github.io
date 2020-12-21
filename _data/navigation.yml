@@ -1,0 +1,15 @@
+# Site navigation links
+- title: Home
+  url: /
+
+- title: Tronix BMS
+  url: /tronix_bms/
+
+- title: Osprey Drone
+  url: /osprey_drone/
+
+- title: WatSize
+  url: /watsize/
+
+- title: ThanOS
+  url: /thanos/
