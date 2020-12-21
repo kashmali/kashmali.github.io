@@ -30,10 +30,12 @@ Some additional features include enabling motor-mode, which prevents the system 
 
 #### Demos
 This following video highlights the GUI connected to one variant of the full BMS system (8 packs connected). This battery pack replaced the traditional lead-acid battery that came with the Homelite Lawn Mower with a high-power Li-poly chemistry, making it lighter and lasting longer than the normal pack.
+
 [Link to the video (google photos)](https://photos.app.goo.gl/hAgS2W5BWyhUqBS59)
 
 
 This following video highlights the GUI connected to another variant of the full BMS system (14 packs connected). This battery pack is a high-power version (3.3kWh) using the same firmware (with different constants).
+
 [Link to the video (google photos)](https://photos.app.goo.gl/8eBsoDNsRfbQidZK8)
 
 
@@ -68,6 +70,7 @@ The following pictures are stages in the mechanical development of the drone
 ![](images/Aerobody3.jpg)
 
 The following video is a demonstration of the wing/servo controls routed through the STM32F0 micro.
+
 [Link to the video (google photos) (Music Playing in Background)](https://photos.app.goo.gl/qvK5nL31o3YXyHK7A)
 
 #### Future Work
@@ -113,6 +116,7 @@ The pictures below showcase the Scanner kit that I prototyped.
 ![](images/top_watsize.jpg)
 
 The video below showcases the full-stack. 
+
 [Link to the video (audio description)](https://photos.app.goo.gl/SZ85UjLfj719GWZh6)
 
 The phone sends a command to the AWS server, which in turns sends a command to the scanner kit to start the scanning process. Next the scanner kit takes a picture and starts rotating the turntable while streaming the point cloud data back the AWS server. Upon completion it sends a 'scan complete' message so the server may start parsing the data. Next the server transforms the point cloud to a meaningful 'avatar' of the person and takes measurements. These measurements get sent back down to the user's phone.
