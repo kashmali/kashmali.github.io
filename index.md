@@ -34,6 +34,8 @@ This following video highlights the GUI connected to one variant of the full BMS
 
 This following video highlights the GUI connected to another variant of the full BMS system (14 packs connected). This battery pack is a high-power version (3.3kWh) using the same firmware (with different constants).
 
+The following are some pictures of the setup.
+![](images/BMSv2.jpg)
 
 #### Future Work
   - Headless interface: Populate and create isolated I2C interface for future devices to configure/read data from the BMS without GUI
@@ -58,6 +60,9 @@ Firmware/Electrical work:
   
 #### Demos
 The following pictures are stages in the mechanical development of the drone
+![](images/Aerobody1.jpg)
+![](images/Aerobody2.jpg)
+![](images/Aerobody3.jpg)
 
 The following video is a demonstration of the wing/servo controls routed through the STM32F0 micro
 #### Future Work
@@ -96,7 +101,9 @@ Turntable:
   - Used Lazy-Suzy as turntable base for users to stand on.
   
 #### Demos
-The pictures below showcase the Scanner kit that I prototyped
+The pictures below showcase the Scanner kit that I prototyped.
+![](images/front_watsize.jpg)
+![](images/top_watsize.jpg)
 
 The video below showcases the full-stack. 
 The phone sends a command to the AWS server, which in turns sends a command to the scanner kit to start the scanning process. Next the scanner kit takes a picture and starts rotating the turntable while streaming the point cloud data back the AWS server. Upon completion it sends a 'scan complete' message so the server may start parsing the data. Next the server transforms the point cloud to a meaningful 'avatar' of the person and takes measurements. These measurements get sent back down to the user's phone.
