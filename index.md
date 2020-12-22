@@ -4,7 +4,7 @@ title: Home
 ---
 
 <p align="center">
-  <img width="454" height="550" src="https://kashmali.github.io/images/biopic.jpg">
+  <img width="454" src="https://kashmali.github.io/images/biopic.jpg">
 </p>
 
 ## Bio
