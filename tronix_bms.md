@@ -28,11 +28,11 @@ Some additional features include enabling motor-mode, which prevents the system 
 ### Demos
 This following video highlights the GUI connected to one variant of the full BMS system (8 packs connected). This battery pack replaced the traditional lead-acid battery that came with the Homelite Lawn Mower with a high-power Li-poly chemistry, making it lighter and lasting longer than the normal pack.
 
-<iframe width="686" src="https://www.youtube.com/embed/vqNQpgYvicE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="686" height="386" src="https://www.youtube.com/embed/vqNQpgYvicE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This following video highlights the GUI connected to another variant of the full BMS system (14 packs connected). This battery pack is a high-power version (3.3kWh) using the same firmware (with different constants).
 
-<iframe width="686" src="https://www.youtube.com/embed/R2jqyV1fxsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="686" height="386" src="https://www.youtube.com/embed/R2jqyV1fxsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 The following are some pictures of the setup.

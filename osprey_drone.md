@@ -25,7 +25,7 @@ The following pictures are stages in the mechanical development of the drone
 
 The following video is a demonstration of the wing/servo controls routed through the STM32F0 micro.
 
-<iframe width="643" src="https://www.youtube.com/embed/ZOA1hxlcov8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="643" height="386" src="https://www.youtube.com/embed/ZOA1hxlcov8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Future Work
 Mechanical:
