@@ -4,5 +4,5 @@ logo: # filename of a logo image that has been placed into your images directory
 theme: Minima
 
 minima: 
-    social_links:
-            linkedin: aakash-mali
+  social_links:
+    linkedin: aakash-mali
