@@ -16,10 +16,15 @@ This website showcases the different projects I've worked on and will be updated
 
 ## Content
 Click on one of the links below to navigate to that given project. Click on the header to return to this page.
+
 	- [Tronix BMS](tronix_bms.md)
+	
 	- [WatSize](watsize.md)
+	
 	- [Osprey Drone](osprey_drone.md)
+	
 	- [ThanOS RTOS](thanos.md)
+	
 
 ## Quick Links
 [LinkedIn](https://www.linkedin.com/in/aakash-mali/)
