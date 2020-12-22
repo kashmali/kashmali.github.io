@@ -9,3 +9,13 @@ owner:
   email: kashmali3313@gmail.com         
   linkedin: aakash-mali
   github: kashmali
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
