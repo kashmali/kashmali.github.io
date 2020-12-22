@@ -1,3 +1,8 @@
+---
+layout: page
+title: Tronix BMS
+---
+
 ## Tronix BMS
 
 #### Background
