@@ -1,21 +1,4 @@
 title: Aakash Mali's Project Website
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
-
-owner:
-  name: Aakash Mali
-  avatar: # Add me
-  bio: "This is a sample Jekyll academic website."
-  email: kashmali3313@gmail.com         
-  linkedin: aakash-mali
-  github: kashmali
-
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+theme: Minima
