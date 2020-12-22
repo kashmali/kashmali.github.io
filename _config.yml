@@ -2,3 +2,7 @@ title: Aakash Mali's Project Website
 locale: en_US
 logo: # filename of a logo image that has been placed into your images directory
 theme: Minima
+
+minima: 
+    social_links:
+            linkedin: aakash-mali
